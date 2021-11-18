@@ -1,5 +1,48 @@
-/*#snake-canvas{
-    background-color: black;
-    width: 1920;
-    height: 1080;
-}*/
+body{
+    background-image: linear-gradient(to right, green, rgb(208, 235, 59));
+}
+
+#snake-canvas{
+    width: 75%;
+    height: 85%;
+    border-radius: 2%;
+}
+
+#scoreboard{
+    background-image: linear-gradient(to bottom, rgb(216, 5, 5), rgba(183, 255, 14, 0.048));
+    border-radius: 2%;
+    height: 76%;
+    width: 25%;
+    position: absolute;
+    left: 75%;
+    top: 1%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#score{
+    font-size: 200px;
+    margin-left: 35%;
+}
+
+#directions{
+    margin-top: 30%;
+    margin-left: 25%;
+    font-size: 30px;
+}
+
+li{
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 18px;
+}
+#apple-image{
+    margin-left: 6%;
+}
+
+#apples-eaten{
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 15%;
+}

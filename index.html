@@ -5,14 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <title>Snake!</title>
 </head>
 <body>
 
-    <canvas id="snake-canvas" width="1024" height="720"></canvas>
-    <script src="script.js"></script>
+    <canvas id="snake-canvas" style="border:1px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
 
+    <img src="/images/snake-img.png" id="snakeimg" alt="snake-img"> <img src="/images/snake-text.png" alt="snake-game-text">
+    <img src="./images/apple-image.png" id="apple-image" alt="apple-image">
+    <a style="display: none;" href="https://www.vecteezy.com/free-vector/snake-cartoon">Snake Cartoon Vectors by Vecteezy</a>
+
+    <div id="scoreboard">
+        <div id="apples-eaten">Apples Eaten:</div>
+        <div id="score">0</div>
+        <div>
+            <ul>
+                <div id="directions"><u>DIRECTIONS</u></div>
+                <li>Use arrow keys to control the snake.</li>
+                <li>Eat the red apple to grow the snake's size.</li>
+                <li>Get the snake as large as possible.</li>
+                <li>Don't run into the snake's body or he dies :-( </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
