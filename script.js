@@ -8,5 +8,10 @@ window.onload = function() {
 
 function drawAll(){
     canvasContext.fillStyle = '#000000'
-    canvasContext.fillRect(canvasContext.fillRect(0, 0, canvas.width, canvas.height)
+    canvasContext.fillRect(canvasContext.fillRect(0, 0, canvas.width, canvas.height),
+    canvasContext.fillStyle = '#f23',
+    canvasContext.fillRect(875, 225, 20, 20),
+    canvasContext.fillStyle = 'lightgreen',
+    canvasContext.fillRect(475, 125, 60, 30),
     )}
+
