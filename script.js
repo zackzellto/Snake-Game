@@ -12,6 +12,6 @@ function drawAll(){
     canvasContext.fillStyle = '#f23',
     canvasContext.fillRect(875, 225, 20, 20),
     canvasContext.fillStyle = 'lightgreen',
-    canvasContext.fillRect(475, 125, 60, 30),
+    canvasContext.fillRect(475, 125, 160, 30),
     )}
 
