@@ -18,4 +18,5 @@ DIRECTIONS
 -Don't run into the snake's body or he dies :-(
 
 ## Author
-Zack Zellto - [LinkedIn](https://www.linkedin.com/in/zackzellto/)
+Zack Zellto - [LinkedIn](https://www.linkedin.com/in/zackzellto/) 
+[Play Snake Game!](https://zackzellto.github.io/snake-game/)
